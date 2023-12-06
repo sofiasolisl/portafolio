@@ -1,0 +1,150 @@
+/*Color Pallet 9C6D81,ACCCD6,226B8B,094561, 0A2749*/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.background_wrapper {
+    background-image: url(../img/background.jpg);
+    height: 100vh;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.logo1_lg{
+    text-align: center;
+}
+.logo1_lg h1{
+    color:#ACCCD6; 
+    font-family:'League Spartan', sans-serif; 
+    font-size:7rem;
+    font-weight: 800;
+    line-height: 0.6em;
+
+}
+.logo1_lg h2{
+    color:#ACCCD6;
+    font-size:2vh;
+    letter-spacing: 0.4rem;
+    font-weight: 800;
+}
+.logo1_lg p {
+    color:#A66383;
+    font-size:14vh;
+    font-weight: 800;
+    font-family:'League Spartan', sans-serif;
+    letter-spacing: 0.4rem;
+}
+
+
+
+.header_button{
+    text-align: center;
+}
+
+.header_button button{
+    border: none;
+    background-color: #0A2749;
+    padding: 0.8vh 3vh;
+    border-radius: 30px;
+    border:2px solid #A66383;
+}
+.header_button button:hover{
+    border:2px solid #ACCCD6;
+}
+.header_button a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ACCCD6;
+}
+.header_content{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo_nav {
+    width: 70px;
+}
+#aboutme, #portafolio, #education, #experience,#contact{
+    background-color:#0A2749 ;
+
+}
+
+#aboutme h2,  #portafolio h2, #education h2, #experience h2,#contact h2{
+    color:#ACCCD6;
+    padding-bottom: 1vh;
+    padding-top: 10vh;
+    text-align: center;
+}
+#aboutme h2 span, #portafolio h2 span, #education h2 span, #experience h2 span,#contact h2 span ,.skills span, .skills h3, #education h3, #education p span{
+    color:#A66383;
+}
+
+.intro {
+
+    background-color: #ACCCD6;
+    padding: 25px;
+    border-radius:15px;
+    font-size:1.1rem;
+}
+
+.skills , .projects{
+
+    background-color: #ACCCD6;
+    padding: 25px;
+    border-radius:15px;
+    font-size:1.1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.photo img {
+    width:40vh;
+    border-radius: 50%;
+    
+}
+#education .cont{
+    padding: 25px;
+    border-radius:15px;
+}
+#education p{
+    font-size:1.1rem;
+}
+.list-group-item{
+    background:#ACCCD6;
+}
+.card-title{
+    color:#A66383;
+    font-weight: bold;
+}
+.boxes{
+    margin:100%;
+}
+#contact{
+    background-image: url(../img/background.jpg);
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#experience{
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
